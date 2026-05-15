@@ -31,6 +31,8 @@ Before opening a PR, follow these steps to properly build and test the project:
 7. Run `npm run test-browser` to make sure you haven't broken anything and all tests are passing.
 8. Create a pull request on the **[`dev`](https://github.com/juliangarnier/anime/tree/dev)** branch.
 
+> **Personal note:** For my own workflow I also run `npm run test-browser` after every significant change in `/src`, not just at the end — caught a few subtle bugs early this way.
+
 ## Consider supporting this project via GitHub Sponsors
 
 I couldn't respond to issues and fix bugs without the support of my sponsors. If you find Anime.js valuable in your work, please consider becoming a sponsor via [GitHub Sponsors](https://github.com/sponsors/juliangarnier)! ❤️
